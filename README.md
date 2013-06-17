@@ -6,15 +6,15 @@ Ruby 1.9.3 or higher
 rally_api 0.9.5 or higher
 
 Configuring and Using the Export Test Set script
-
 Create directory for script and associated files:
 
+<pre>
 C:\Users\username\Documents\Rally Export Test Set\
-
+</pre>
 Download the export_test_set.rb script and the my_vars.rb file to the above directory
 
 Using a text editor, customize the code parameters in the my_vars.rb file for your environment.
-
+<pre>
 my_vars.rb:
 
 # Connection Parameters
@@ -49,3 +49,5 @@ Test Case TC3: 2 of 4 exported.
 Test Case TC4: 3 of 4 exported.
 Test Case TC5: 4 of 4 exported.
 Done! Test Cases for Test Set: TS7 written to: testset.txt.
+
+</pre>
